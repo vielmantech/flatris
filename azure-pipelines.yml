@@ -18,6 +18,7 @@ steps:
     versionSpec: '14.x'
     checkLatest: true
   displayName: 'Install Node.js'
-
-
+- task: Npm@1
+  inputs:
+    command: 'install'
 
